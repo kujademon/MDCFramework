@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		355BBA3C20AA9E0C00F8DA04 /* RadioButtonSelectedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355BBA3B20AA9E0C00F8DA04 /* RadioButtonSelectedController.swift */; };
+		35842D68209E078E005F5B32 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D67209E078E005F5B32 /* SliderViewController.swift */; };
+		35842D6A209E07E9005F5B32 /* SilderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D69209E07E9005F5B32 /* SilderTableViewCell.swift */; };
+		35842D6C209E0AA6005F5B32 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D6B209E0AA6005F5B32 /* UIColorExtension.swift */; };
+		35842D6F209E0F9C005F5B32 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D6E209E0F9C005F5B32 /* StackViewController.swift */; };
+		35842D72209E33AA005F5B32 /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D71209E33AA005F5B32 /* StepperViewController.swift */; };
+		35842D74209E33B9005F5B32 /* StepperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D73209E33B9005F5B32 /* StepperTableViewCell.swift */; };
+		35842D77209E37DD005F5B32 /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D76209E37DD005F5B32 /* SwitchViewController.swift */; };
+		35842D79209E37F0005F5B32 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D78209E37F0005F5B32 /* SwitchTableViewCell.swift */; };
+		35842D7D209E39B0005F5B32 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D7C209E39B0005F5B32 /* TextFieldViewController.swift */; };
+		35842D7F209E39E1005F5B32 /* TextfieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D7E209E39E1005F5B32 /* TextfieldTableViewCell.swift */; };
+		35842D82209EC809005F5B32 /* TextViewDefaultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D81209EC809005F5B32 /* TextViewDefaultController.swift */; };
+		35842D87209F04AE005F5B32 /* ToolbarViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D86209F04AE005F5B32 /* ToolbarViewControllers.swift */; };
+		35842D8A209F05D4005F5B32 /* DefaultToolbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D89209F05D4005F5B32 /* DefaultToolbarViewController.swift */; };
+		35842D8C209F05FA005F5B32 /* TintedToolbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D8B209F05FA005F5B32 /* TintedToolbarViewController.swift */; };
+		35842D8E209F060E005F5B32 /* CustomToolbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D8D209F060E005F5B32 /* CustomToolbarViewController.swift */; };
+		35842D91209F0907005F5B32 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D90209F0907005F5B32 /* WebViewController.swift */; };
+		35842D94209F463D005F5B32 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D93209F463D005F5B32 /* CollectionViewController.swift */; };
+		35842D9720A02BA4005F5B32 /* TabbarDefaultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D9620A02BA4005F5B32 /* TabbarDefaultController.swift */; };
+		35842D9D20A153D6005F5B32 /* firstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D9C20A153D6005F5B32 /* firstVC.swift */; };
+		35842D9F20A15400005F5B32 /* secondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D9E20A15400005F5B32 /* secondVC.swift */; };
+		35842DA320A15613005F5B32 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842DA220A15613005F5B32 /* TabbarController.swift */; };
+		35842DA520A156D7005F5B32 /* TabbarCustomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842DA420A156D7005F5B32 /* TabbarCustomController.swift */; };
+		35842DBE20A42E08005F5B32 /* KMPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842DBD20A42E08005F5B32 /* KMPlaceholderTextView.swift */; };
+		35842DC020A42E2E005F5B32 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842DBF20A42E2E005F5B32 /* RadioButton.swift */; };
+		35842DC220A42EED005F5B32 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842DC120A42EED005F5B32 /* TextViewController.swift */; };
+		35842DC520A42F9A005F5B32 /* TextViewCustomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842DC420A42F9A005F5B32 /* TextViewCustomController.swift */; };
+		35842DC820A43D66005F5B32 /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842DC720A43D66005F5B32 /* MainTabbarController.swift */; };
+		35842DCA20A43D7D005F5B32 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842DC920A43D7D005F5B32 /* CustomViewController.swift */; };
+		35AA8AE6209D9917009E91AC /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AE5209D9917009E91AC /* PageControlViewController.swift */; };
+		35AA8AE9209D99B4009E91AC /* AppleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AE8209D99B4009E91AC /* AppleViewController.swift */; };
+		35AA8AEB209D99C4009E91AC /* PeachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AEA209D99C4009E91AC /* PeachViewController.swift */; };
+		35AA8AEE209DA205009E91AC /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AED209DA205009E91AC /* PickerViewController.swift */; };
+		35AA8AF1209DB197009E91AC /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AF0209DB197009E91AC /* ProgressViewController.swift */; };
+		35AA8AF3209DB76D009E91AC /* ProgressViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AF2209DB76D009E91AC /* ProgressViewCell.swift */; };
+		35AA8AF6209DC2F1009E91AC /* SearchViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AF5209DC2F1009E91AC /* SearchViewControllers.swift */; };
+		35AA8AF9209DDF0D009E91AC /* DefaultSearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AF8209DDF0D009E91AC /* DefaultSearchBarViewController.swift */; };
+		35AA8AFB209DE2DF009E91AC /* CustomSearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AFA209DE2DF009E91AC /* CustomSearchBarViewController.swift */; };
+		35AA8AFE209DE4C1009E91AC /* SearchBarEmbedInNavBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AFD209DE4C1009E91AC /* SearchBarEmbedInNavBarViewController.swift */; };
+		35AA8B00209DE4D4009E91AC /* SearchControllerBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8AFF209DE4D4009E91AC /* SearchControllerBaseViewController.swift */; };
+		35AA8B02209DE642009E91AC /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8B01209DE642009E91AC /* SearchResultsViewController.swift */; };
+		35AA8B06209DEE50009E91AC /* SegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8B05209DEE50009E91AC /* SegmentedControlViewController.swift */; };
+		35AA8B08209DEF3C009E91AC /* SegmentedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AA8B07209DEF3C009E91AC /* SegmentedTableViewCell.swift */; };
+		35BEA4282096CF6300C1751D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA4272096CF6300C1751D /* AppDelegate.swift */; };
+		35BEA42A2096CF6300C1751D /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA4292096CF6300C1751D /* DefaultViewController.swift */; };
+		35BEA42F2096CF6500C1751D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35BEA42E2096CF6500C1751D /* Assets.xcassets */; };
+		35BEA4322096CF6500C1751D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35BEA4302096CF6500C1751D /* LaunchScreen.storyboard */; };
+		35BEA43B2096D65300C1751D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA43A2096D65300C1751D /* UIViewExtension.swift */; };
+		35BEA43E209AC1E300C1751D /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA43D209AC1E300C1751D /* BaseTableViewController.swift */; };
+		35BEA444209AD36200C1751D /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA443209AD36200C1751D /* NSObjectExtension.swift */; };
+		35BEA447209AF72900C1751D /* ActivityIndicatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA446209AF72900C1751D /* ActivityIndicatorViewController.swift */; };
+		35BEA449209AF93A00C1751D /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA448209AF93A00C1751D /* BaseTableViewCell.swift */; };
+		35BEA44B209AF96400C1751D /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA44A209AF96400C1751D /* BaseCell.swift */; };
+		35BEA44F209C0DD200C1751D /* ActivityIndicatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA44E209C0DD200C1751D /* ActivityIndicatorTableViewCell.swift */; };
+		35BEA452209C3E6600C1751D /* AlertControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA451209C3E6600C1751D /* AlertControllerViewController.swift */; };
+		35BEA457209C4DF600C1751D /* content.html in Resources */ = {isa = PBXBuildFile; fileRef = 35BEA456209C4DF600C1751D /* content.html */; };
+		35BEA459209C4DFE00C1751D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35BEA458209C4DFE00C1751D /* Localizable.strings */; };
+		35BEA45C209C52B000C1751D /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA45B209C52B000C1751D /* ButtonViewController.swift */; };
+		35BEA45E209C552900C1751D /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA45D209C552900C1751D /* ButtonTableViewCell.swift */; };
+		35BEA461209C611300C1751D /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA460209C611300C1751D /* DatePickerController.swift */; };
+		35BEA464209D841000C1751D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA463209D841000C1751D /* ImageViewController.swift */; };
+		35D07D3320A5487500497DE8 /* RadioButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D07D3220A5487500497DE8 /* RadioButtonViewController.swift */; };
+		35E9D23B20BBEF5E004695EC /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9D23620BBEF5D004695EC /* Interactor.swift */; };
+		35E9D23C20BBEF5E004695EC /* MenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9D23720BBEF5D004695EC /* MenuHelper.swift */; };
+		35E9D23D20BBEF5E004695EC /* PresentMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9D23820BBEF5D004695EC /* PresentMenuAnimator.swift */; };
+		35E9D23E20BBEF5E004695EC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9D23920BBEF5D004695EC /* MenuViewController.swift */; };
+		35E9D23F20BBEF5E004695EC /* DismissMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9D23A20BBEF5E004695EC /* DismissMenuAnimator.swift */; };
+		35E9D24220BBEFAD004695EC /* SildeMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9D24120BBEFAD004695EC /* SildeMenuViewController.swift */; };
+		35FE979920BE8A3300D9D4C1 /* RadioButtonMultiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FE979820BE8A3300D9D4C1 /* RadioButtonMultiController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		355BBA3B20AA9E0C00F8DA04 /* RadioButtonSelectedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonSelectedController.swift; sourceTree = "<group>"; };
+		35842D67209E078E005F5B32 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		35842D69209E07E9005F5B32 /* SilderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilderTableViewCell.swift; sourceTree = "<group>"; };
+		35842D6B209E0AA6005F5B32 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		35842D6E209E0F9C005F5B32 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		35842D71209E33AA005F5B32 /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
+		35842D73209E33B9005F5B32 /* StepperTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperTableViewCell.swift; sourceTree = "<group>"; };
+		35842D76209E37DD005F5B32 /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		35842D78209E37F0005F5B32 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
+		35842D7C209E39B0005F5B32 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		35842D7E209E39E1005F5B32 /* TextfieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldTableViewCell.swift; sourceTree = "<group>"; };
+		35842D81209EC809005F5B32 /* TextViewDefaultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewDefaultController.swift; sourceTree = "<group>"; };
+		35842D86209F04AE005F5B32 /* ToolbarViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarViewControllers.swift; sourceTree = "<group>"; };
+		35842D89209F05D4005F5B32 /* DefaultToolbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultToolbarViewController.swift; sourceTree = "<group>"; };
+		35842D8B209F05FA005F5B32 /* TintedToolbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintedToolbarViewController.swift; sourceTree = "<group>"; };
+		35842D8D209F060E005F5B32 /* CustomToolbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToolbarViewController.swift; sourceTree = "<group>"; };
+		35842D90209F0907005F5B32 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		35842D93209F463D005F5B32 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		35842D9620A02BA4005F5B32 /* TabbarDefaultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarDefaultController.swift; sourceTree = "<group>"; };
+		35842D9C20A153D6005F5B32 /* firstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstVC.swift; sourceTree = "<group>"; };
+		35842D9E20A15400005F5B32 /* secondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVC.swift; sourceTree = "<group>"; };
+		35842DA220A15613005F5B32 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		35842DA420A156D7005F5B32 /* TabbarCustomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarCustomController.swift; sourceTree = "<group>"; };
+		35842DBD20A42E08005F5B32 /* KMPlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMPlaceholderTextView.swift; sourceTree = "<group>"; };
+		35842DBF20A42E2E005F5B32 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		35842DC120A42EED005F5B32 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		35842DC420A42F9A005F5B32 /* TextViewCustomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewCustomController.swift; sourceTree = "<group>"; };
+		35842DC720A43D66005F5B32 /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		35842DC920A43D7D005F5B32 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		35AA8AE5209D9917009E91AC /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		35AA8AE8209D99B4009E91AC /* AppleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleViewController.swift; sourceTree = "<group>"; };
+		35AA8AEA209D99C4009E91AC /* PeachViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeachViewController.swift; sourceTree = "<group>"; };
+		35AA8AED209DA205009E91AC /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		35AA8AF0209DB197009E91AC /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		35AA8AF2209DB76D009E91AC /* ProgressViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewCell.swift; sourceTree = "<group>"; };
+		35AA8AF5209DC2F1009E91AC /* SearchViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllers.swift; sourceTree = "<group>"; };
+		35AA8AF8209DDF0D009E91AC /* DefaultSearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSearchBarViewController.swift; sourceTree = "<group>"; };
+		35AA8AFA209DE2DF009E91AC /* CustomSearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBarViewController.swift; sourceTree = "<group>"; };
+		35AA8AFD209DE4C1009E91AC /* SearchBarEmbedInNavBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarEmbedInNavBarViewController.swift; sourceTree = "<group>"; };
+		35AA8AFF209DE4D4009E91AC /* SearchControllerBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchControllerBaseViewController.swift; sourceTree = "<group>"; };
+		35AA8B01209DE642009E91AC /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		35AA8B05209DEE50009E91AC /* SegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlViewController.swift; sourceTree = "<group>"; };
+		35AA8B07209DEF3C009E91AC /* SegmentedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedTableViewCell.swift; sourceTree = "<group>"; };
+		35BEA4242096CF6300C1751D /* framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = framework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35BEA4272096CF6300C1751D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		35BEA4292096CF6300C1751D /* DefaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
+		35BEA42E2096CF6500C1751D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35BEA4312096CF6500C1751D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35BEA4332096CF6500C1751D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35BEA43A2096D65300C1751D /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		35BEA43D209AC1E300C1751D /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		35BEA443209AD36200C1751D /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		35BEA446209AF72900C1751D /* ActivityIndicatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorViewController.swift; sourceTree = "<group>"; };
+		35BEA448209AF93A00C1751D /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		35BEA44A209AF96400C1751D /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		35BEA44E209C0DD200C1751D /* ActivityIndicatorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorTableViewCell.swift; sourceTree = "<group>"; };
+		35BEA451209C3E6600C1751D /* AlertControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllerViewController.swift; sourceTree = "<group>"; };
+		35BEA456209C4DF600C1751D /* content.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = content.html; sourceTree = "<group>"; };
+		35BEA458209C4DFE00C1751D /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		35BEA45B209C52B000C1751D /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		35BEA45D209C552900C1751D /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		35BEA460209C611300C1751D /* DatePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
+		35BEA463209D841000C1751D /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		35D07D3220A5487500497DE8 /* RadioButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonViewController.swift; sourceTree = "<group>"; };
+		35E9D23620BBEF5D004695EC /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		35E9D23720BBEF5D004695EC /* MenuHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHelper.swift; sourceTree = "<group>"; };
+		35E9D23820BBEF5D004695EC /* PresentMenuAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentMenuAnimator.swift; sourceTree = "<group>"; };
+		35E9D23920BBEF5D004695EC /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		35E9D23A20BBEF5E004695EC /* DismissMenuAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissMenuAnimator.swift; sourceTree = "<group>"; };
+		35E9D24120BBEFAD004695EC /* SildeMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SildeMenuViewController.swift; sourceTree = "<group>"; };
+		35FE979820BE8A3300D9D4C1 /* RadioButtonMultiController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonMultiController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35BEA4212096CF6300C1751D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35842D66209E0756005F5B32 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				35842D67209E078E005F5B32 /* SliderViewController.swift */,
+				35842D69209E07E9005F5B32 /* SilderTableViewCell.swift */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		35842D6D209E0F83005F5B32 /* StackView */ = {
+			isa = PBXGroup;
+			children = (
+				35842D6E209E0F9C005F5B32 /* StackViewController.swift */,
+			);
+			path = StackView;
+			sourceTree = "<group>";
+		};
+		35842D70209E3390005F5B32 /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				35842D71209E33AA005F5B32 /* StepperViewController.swift */,
+				35842D73209E33B9005F5B32 /* StepperTableViewCell.swift */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+		35842D75209E37BB005F5B32 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				35842D76209E37DD005F5B32 /* SwitchViewController.swift */,
+				35842D78209E37F0005F5B32 /* SwitchTableViewCell.swift */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		35842D7B209E398D005F5B32 /* Textfield */ = {
+			isa = PBXGroup;
+			children = (
+				35842D7C209E39B0005F5B32 /* TextFieldViewController.swift */,
+				35842D7E209E39E1005F5B32 /* TextfieldTableViewCell.swift */,
+			);
+			path = Textfield;
+			sourceTree = "<group>";
+		};
+		35842D80209EC6A5005F5B32 /* TextviewController */ = {
+			isa = PBXGroup;
+			children = (
+				35842DC320A42F03005F5B32 /* Textview */,
+				35842DC120A42EED005F5B32 /* TextViewController.swift */,
+			);
+			path = TextviewController;
+			sourceTree = "<group>";
+		};
+		35842D85209F046B005F5B32 /* Toolbar View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35842D88209F05AE005F5B32 /* ToolBar */,
+				35842D86209F04AE005F5B32 /* ToolbarViewControllers.swift */,
+			);
+			path = "Toolbar View Controllers";
+			sourceTree = "<group>";
+		};
+		35842D88209F05AE005F5B32 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				35842D89209F05D4005F5B32 /* DefaultToolbarViewController.swift */,
+				35842D8B209F05FA005F5B32 /* TintedToolbarViewController.swift */,
+				35842D8D209F060E005F5B32 /* CustomToolbarViewController.swift */,
+			);
+			path = ToolBar;
+			sourceTree = "<group>";
+		};
+		35842D8F209F08DF005F5B32 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				35842D90209F0907005F5B32 /* WebViewController.swift */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		35842D92209F45EF005F5B32 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				35842D93209F463D005F5B32 /* CollectionViewController.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		35842D9520A02B7C005F5B32 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				35842D9B20A152CA005F5B32 /* item */,
+				35842DA020A155B8005F5B32 /* Default */,
+				35842DA120A155C6005F5B32 /* Custom */,
+				35842DA220A15613005F5B32 /* TabbarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		35842D9B20A152CA005F5B32 /* item */ = {
+			isa = PBXGroup;
+			children = (
+				35842D9C20A153D6005F5B32 /* firstVC.swift */,
+				35842D9E20A15400005F5B32 /* secondVC.swift */,
+			);
+			path = item;
+			sourceTree = "<group>";
+		};
+		35842DA020A155B8005F5B32 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				35842D9620A02BA4005F5B32 /* TabbarDefaultController.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		35842DA120A155C6005F5B32 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				35842DA420A156D7005F5B32 /* TabbarCustomController.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		35842DBC20A42D9B005F5B32 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				35E9D23520BBEF39004695EC /* InteractiveSlideoutMenu */,
+				35842DBD20A42E08005F5B32 /* KMPlaceholderTextView.swift */,
+				35842DBF20A42E2E005F5B32 /* RadioButton.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		35842DC320A42F03005F5B32 /* Textview */ = {
+			isa = PBXGroup;
+			children = (
+				35842D81209EC809005F5B32 /* TextViewDefaultController.swift */,
+				35842DC420A42F9A005F5B32 /* TextViewCustomController.swift */,
+			);
+			path = Textview;
+			sourceTree = "<group>";
+		};
+		35842DC620A43D41005F5B32 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				35BEA445209AF6E000C1751D /* ViewController */,
+				35D07D3120A5483200497DE8 /* Custom */,
+				35842DC720A43D66005F5B32 /* MainTabbarController.swift */,
+				35BEA4292096CF6300C1751D /* DefaultViewController.swift */,
+				35842DC920A43D7D005F5B32 /* CustomViewController.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		35AA8AE7209D9985009E91AC /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				35AA8AE8209D99B4009E91AC /* AppleViewController.swift */,
+				35AA8AEA209D99C4009E91AC /* PeachViewController.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		35AA8AEC209DA1DA009E91AC /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				35AA8AED209DA205009E91AC /* PickerViewController.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		35AA8AEF209DB164009E91AC /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				35AA8AF0209DB197009E91AC /* ProgressViewController.swift */,
+				35AA8AF2209DB76D009E91AC /* ProgressViewCell.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		35AA8AF4209DC2BC009E91AC /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				35AA8AF5209DC2F1009E91AC /* SearchViewControllers.swift */,
+				35AA8AF7209DDEEF009E91AC /* Search Bar */,
+				35AA8AFC209DE42E009E91AC /* Search Controller */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		35AA8AF7209DDEEF009E91AC /* Search Bar */ = {
+			isa = PBXGroup;
+			children = (
+				35AA8AF8209DDF0D009E91AC /* DefaultSearchBarViewController.swift */,
+				35AA8AFA209DE2DF009E91AC /* CustomSearchBarViewController.swift */,
+			);
+			path = "Search Bar";
+			sourceTree = "<group>";
+		};
+		35AA8AFC209DE42E009E91AC /* Search Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35AA8AFF209DE4D4009E91AC /* SearchControllerBaseViewController.swift */,
+				35AA8AFD209DE4C1009E91AC /* SearchBarEmbedInNavBarViewController.swift */,
+				35AA8B01209DE642009E91AC /* SearchResultsViewController.swift */,
+			);
+			path = "Search Controller";
+			sourceTree = "<group>";
+		};
+		35AA8B04209DEE1F009E91AC /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				35AA8B05209DEE50009E91AC /* SegmentedControlViewController.swift */,
+				35AA8B07209DEF3C009E91AC /* SegmentedTableViewCell.swift */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
+		35BEA41B2096CF6300C1751D = {
+			isa = PBXGroup;
+			children = (
+				35BEA4262096CF6300C1751D /* framework */,
+				35BEA4252096CF6300C1751D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35BEA4252096CF6300C1751D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35BEA4242096CF6300C1751D /* framework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35BEA4262096CF6300C1751D /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				35842DBC20A42D9B005F5B32 /* Util */,
+				35BEA43F209AC2FB00C1751D /* Base */,
+				35BEA4392096D63B00C1751D /* Extension */,
+				35BEA4272096CF6300C1751D /* AppDelegate.swift */,
+				35BEA42E2096CF6500C1751D /* Assets.xcassets */,
+				35BEA4302096CF6500C1751D /* LaunchScreen.storyboard */,
+				35BEA4332096CF6500C1751D /* Info.plist */,
+				35BEA455209C4DD600C1751D /* Supporting File */,
+			);
+			path = framework;
+			sourceTree = "<group>";
+		};
+		35BEA4392096D63B00C1751D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				35BEA43A2096D65300C1751D /* UIViewExtension.swift */,
+				35BEA443209AD36200C1751D /* NSObjectExtension.swift */,
+				35842D6B209E0AA6005F5B32 /* UIColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		35BEA43F209AC2FB00C1751D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				35842DC620A43D41005F5B32 /* MainTab */,
+				35BEA43D209AC1E300C1751D /* BaseTableViewController.swift */,
+				35BEA448209AF93A00C1751D /* BaseTableViewCell.swift */,
+				35BEA44A209AF96400C1751D /* BaseCell.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		35BEA445209AF6E000C1751D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				35BEA44D209C0DB500C1751D /* ActivityIndicator */,
+				35BEA450209C3E1B00C1751D /* AlertController */,
+				35BEA45A209C528D00C1751D /* Button */,
+				35842D92209F45EF005F5B32 /* CollectionView */,
+				35BEA45F209C60E300C1751D /* DatePicker */,
+				35BEA462209D83CF00C1751D /* ImageView */,
+				35BEA465209D885500C1751D /* PageControl */,
+				35AA8AEC209DA1DA009E91AC /* Picker */,
+				35AA8AEF209DB164009E91AC /* Progress */,
+				35AA8AF4209DC2BC009E91AC /* Search */,
+				35AA8B04209DEE1F009E91AC /* SegmentedControl */,
+				35842D66209E0756005F5B32 /* Slider */,
+				35842D6D209E0F83005F5B32 /* StackView */,
+				35842D70209E3390005F5B32 /* Stepper */,
+				35842D75209E37BB005F5B32 /* Switch */,
+				35842D9520A02B7C005F5B32 /* Tabbar */,
+				35842D7B209E398D005F5B32 /* Textfield */,
+				35842D80209EC6A5005F5B32 /* TextviewController */,
+				35842D85209F046B005F5B32 /* Toolbar View Controllers */,
+				35842D8F209F08DF005F5B32 /* WebViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		35BEA44D209C0DB500C1751D /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				35BEA446209AF72900C1751D /* ActivityIndicatorViewController.swift */,
+				35BEA44E209C0DD200C1751D /* ActivityIndicatorTableViewCell.swift */,
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		35BEA450209C3E1B00C1751D /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				35BEA451209C3E6600C1751D /* AlertControllerViewController.swift */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
+		35BEA455209C4DD600C1751D /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				35BEA458209C4DFE00C1751D /* Localizable.strings */,
+				35BEA456209C4DF600C1751D /* content.html */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		35BEA45A209C528D00C1751D /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				35BEA45B209C52B000C1751D /* ButtonViewController.swift */,
+				35BEA45D209C552900C1751D /* ButtonTableViewCell.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		35BEA45F209C60E300C1751D /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				35BEA460209C611300C1751D /* DatePickerController.swift */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		35BEA462209D83CF00C1751D /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				35BEA463209D841000C1751D /* ImageViewController.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		35BEA465209D885500C1751D /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				35AA8AE7209D9985009E91AC /* PageView */,
+				35AA8AE5209D9917009E91AC /* PageControlViewController.swift */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		35D07D3120A5483200497DE8 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				35E9D24020BBEF80004695EC /* SildeMenu */,
+				35D07D3420A5487E00497DE8 /* RadioButton */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		35D07D3420A5487E00497DE8 /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				35D07D3220A5487500497DE8 /* RadioButtonViewController.swift */,
+				355BBA3B20AA9E0C00F8DA04 /* RadioButtonSelectedController.swift */,
+				35FE979820BE8A3300D9D4C1 /* RadioButtonMultiController.swift */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		35E9D23520BBEF39004695EC /* InteractiveSlideoutMenu */ = {
+			isa = PBXGroup;
+			children = (
+				35E9D23A20BBEF5E004695EC /* DismissMenuAnimator.swift */,
+				35E9D23620BBEF5D004695EC /* Interactor.swift */,
+				35E9D23720BBEF5D004695EC /* MenuHelper.swift */,
+				35E9D23820BBEF5D004695EC /* PresentMenuAnimator.swift */,
+			);
+			path = InteractiveSlideoutMenu;
+			sourceTree = "<group>";
+		};
+		35E9D24020BBEF80004695EC /* SildeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				35E9D23920BBEF5D004695EC /* MenuViewController.swift */,
+				35E9D24120BBEFAD004695EC /* SildeMenuViewController.swift */,
+			);
+			path = SildeMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35BEA4232096CF6300C1751D /* framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35BEA4362096CF6500C1751D /* Build configuration list for PBXNativeTarget "framework" */;
+			buildPhases = (
+				35BEA4202096CF6300C1751D /* Sources */,
+				35BEA4212096CF6300C1751D /* Frameworks */,
+				35BEA4222096CF6300C1751D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = framework;
+			productName = framework;
+			productReference = 35BEA4242096CF6300C1751D /* framework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35BEA41C2096CF6300C1751D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = freewillsolutions;
+				TargetAttributes = {
+					35BEA4232096CF6300C1751D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 35BEA41F2096CF6300C1751D /* Build configuration list for PBXProject "framework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35BEA41B2096CF6300C1751D;
+			productRefGroup = 35BEA4252096CF6300C1751D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35BEA4232096CF6300C1751D /* framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35BEA4222096CF6300C1751D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35BEA4322096CF6500C1751D /* LaunchScreen.storyboard in Resources */,
+				35BEA459209C4DFE00C1751D /* Localizable.strings in Resources */,
+				35BEA42F2096CF6500C1751D /* Assets.xcassets in Resources */,
+				35BEA457209C4DF600C1751D /* content.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35BEA4202096CF6300C1751D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AA8B00209DE4D4009E91AC /* SearchControllerBaseViewController.swift in Sources */,
+				35842D9720A02BA4005F5B32 /* TabbarDefaultController.swift in Sources */,
+				35E9D23B20BBEF5E004695EC /* Interactor.swift in Sources */,
+				35AA8B02209DE642009E91AC /* SearchResultsViewController.swift in Sources */,
+				35AA8AEB209D99C4009E91AC /* PeachViewController.swift in Sources */,
+				35842D7F209E39E1005F5B32 /* TextfieldTableViewCell.swift in Sources */,
+				35842D8C209F05FA005F5B32 /* TintedToolbarViewController.swift in Sources */,
+				35E9D23E20BBEF5E004695EC /* MenuViewController.swift in Sources */,
+				35842DA320A15613005F5B32 /* TabbarController.swift in Sources */,
+				35842DC020A42E2E005F5B32 /* RadioButton.swift in Sources */,
+				35D07D3320A5487500497DE8 /* RadioButtonViewController.swift in Sources */,
+				35AA8AF6209DC2F1009E91AC /* SearchViewControllers.swift in Sources */,
+				35BEA43B2096D65300C1751D /* UIViewExtension.swift in Sources */,
+				35842D79209E37F0005F5B32 /* SwitchTableViewCell.swift in Sources */,
+				35842DC220A42EED005F5B32 /* TextViewController.swift in Sources */,
+				35842DCA20A43D7D005F5B32 /* CustomViewController.swift in Sources */,
+				35BEA44F209C0DD200C1751D /* ActivityIndicatorTableViewCell.swift in Sources */,
+				35842D94209F463D005F5B32 /* CollectionViewController.swift in Sources */,
+				35842D9D20A153D6005F5B32 /* firstVC.swift in Sources */,
+				35AA8B08209DEF3C009E91AC /* SegmentedTableViewCell.swift in Sources */,
+				35E9D23D20BBEF5E004695EC /* PresentMenuAnimator.swift in Sources */,
+				35842D74209E33B9005F5B32 /* StepperTableViewCell.swift in Sources */,
+				35842DC820A43D66005F5B32 /* MainTabbarController.swift in Sources */,
+				35BEA447209AF72900C1751D /* ActivityIndicatorViewController.swift in Sources */,
+				35E9D23F20BBEF5E004695EC /* DismissMenuAnimator.swift in Sources */,
+				35AA8AFE209DE4C1009E91AC /* SearchBarEmbedInNavBarViewController.swift in Sources */,
+				35842D6F209E0F9C005F5B32 /* StackViewController.swift in Sources */,
+				35BEA45E209C552900C1751D /* ButtonTableViewCell.swift in Sources */,
+				35842D8E209F060E005F5B32 /* CustomToolbarViewController.swift in Sources */,
+				35842DC520A42F9A005F5B32 /* TextViewCustomController.swift in Sources */,
+				35842D6A209E07E9005F5B32 /* SilderTableViewCell.swift in Sources */,
+				35BEA444209AD36200C1751D /* NSObjectExtension.swift in Sources */,
+				35AA8AE9209D99B4009E91AC /* AppleViewController.swift in Sources */,
+				35BEA42A2096CF6300C1751D /* DefaultViewController.swift in Sources */,
+				35AA8AE6209D9917009E91AC /* PageControlViewController.swift in Sources */,
+				35BEA44B209AF96400C1751D /* BaseCell.swift in Sources */,
+				35842D87209F04AE005F5B32 /* ToolbarViewControllers.swift in Sources */,
+				35842D91209F0907005F5B32 /* WebViewController.swift in Sources */,
+				35AA8B06209DEE50009E91AC /* SegmentedControlViewController.swift in Sources */,
+				35842D6C209E0AA6005F5B32 /* UIColorExtension.swift in Sources */,
+				35842DA520A156D7005F5B32 /* TabbarCustomController.swift in Sources */,
+				35AA8AFB209DE2DF009E91AC /* CustomSearchBarViewController.swift in Sources */,
+				355BBA3C20AA9E0C00F8DA04 /* RadioButtonSelectedController.swift in Sources */,
+				35842D9F20A15400005F5B32 /* secondVC.swift in Sources */,
+				35BEA449209AF93A00C1751D /* BaseTableViewCell.swift in Sources */,
+				35842DBE20A42E08005F5B32 /* KMPlaceholderTextView.swift in Sources */,
+				35AA8AF9209DDF0D009E91AC /* DefaultSearchBarViewController.swift in Sources */,
+				35FE979920BE8A3300D9D4C1 /* RadioButtonMultiController.swift in Sources */,
+				35AA8AF1209DB197009E91AC /* ProgressViewController.swift in Sources */,
+				35BEA43E209AC1E300C1751D /* BaseTableViewController.swift in Sources */,
+				35842D72209E33AA005F5B32 /* StepperViewController.swift in Sources */,
+				35AA8AF3209DB76D009E91AC /* ProgressViewCell.swift in Sources */,
+				35E9D23C20BBEF5E004695EC /* MenuHelper.swift in Sources */,
+				35842D77209E37DD005F5B32 /* SwitchViewController.swift in Sources */,
+				35AA8AEE209DA205009E91AC /* PickerViewController.swift in Sources */,
+				35BEA4282096CF6300C1751D /* AppDelegate.swift in Sources */,
+				35BEA464209D841000C1751D /* ImageViewController.swift in Sources */,
+				35BEA452209C3E6600C1751D /* AlertControllerViewController.swift in Sources */,
+				35BEA461209C611300C1751D /* DatePickerController.swift in Sources */,
+				35842D8A209F05D4005F5B32 /* DefaultToolbarViewController.swift in Sources */,
+				35842D68209E078E005F5B32 /* SliderViewController.swift in Sources */,
+				35842D7D209E39B0005F5B32 /* TextFieldViewController.swift in Sources */,
+				35E9D24220BBEFAD004695EC /* SildeMenuViewController.swift in Sources */,
+				35BEA45C209C52B000C1751D /* ButtonViewController.swift in Sources */,
+				35842D82209EC809005F5B32 /* TextViewDefaultController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35BEA4302096CF6500C1751D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35BEA4312096CF6500C1751D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35BEA4342096CF6500C1751D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35BEA4352096CF6500C1751D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35BEA4372096CF6500C1751D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6VRCXTU9B;
+				INFOPLIST_FILE = framework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freewillsolutions.framework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35BEA4382096CF6500C1751D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6VRCXTU9B;
+				INFOPLIST_FILE = framework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freewillsolutions.framework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35BEA41F2096CF6300C1751D /* Build configuration list for PBXProject "framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35BEA4342096CF6500C1751D /* Debug */,
+				35BEA4352096CF6500C1751D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35BEA4362096CF6500C1751D /* Build configuration list for PBXNativeTarget "framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35BEA4372096CF6500C1751D /* Debug */,
+				35BEA4382096CF6500C1751D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35BEA41C2096CF6300C1751D /* Project object */;
+}
