@@ -51,11 +51,11 @@ class MenuViewController : UIViewController {
         let table = UITableView(frame: CGRect.zero, style: .plain)
         
         
-        table.contentInset = UIEdgeInsetsMake(0.0, 0.0, 0.0, 0.0)
-        table.scrollIndicatorInsets = UIEdgeInsetsMake(0.0, 0.0, 0.0, 0.0)
+        table.contentInset = UIEdgeInsets(top: 0.0, left: 0.0, bottom: 0.0, right: 0.0)
+        table.scrollIndicatorInsets = UIEdgeInsets(top: 0.0, left: 0.0, bottom: 0.0, right: 0.0)
         
         table.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
-        table.rowHeight = UITableViewAutomaticDimension
+        table.rowHeight = UITableView.automaticDimension
         table.estimatedRowHeight = 200
         
         table.delegate = self

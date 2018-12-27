@@ -60,7 +60,7 @@ class CustomToolbarViewController: UIViewController {
                                             action: #selector(CustomToolbarViewController.barButtonItemClicked(_:)))
         
         let attributes = [
-            NSAttributedStringKey.foregroundColor: UIColor.tintPurple()
+            NSAttributedString.Key.foregroundColor: UIColor.tintPurple()
         ]
         barButtonItem.setTitleTextAttributes(attributes, for: .normal)
         

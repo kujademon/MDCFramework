@@ -22,7 +22,7 @@ class StackViewController: UIViewController {
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.alignment = .center
         
-        let attributes:[NSAttributedStringKey: Any] = [
+        let attributes:[NSAttributedString.Key: Any] = [
             .font: UIFont.boldSystemFont(ofSize: 16),
             .paragraphStyle: paragraphStyle
         ]
@@ -63,7 +63,7 @@ class StackViewController: UIViewController {
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.alignment = .center
         
-        let attributes:[NSAttributedStringKey: Any] = [
+        let attributes:[NSAttributedString.Key: Any] = [
             .font: UIFont.systemFont(ofSize: 12),
             .paragraphStyle: paragraphStyle
         ]
@@ -82,7 +82,7 @@ class StackViewController: UIViewController {
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.alignment = .center
         
-        let attributes:[NSAttributedStringKey: Any] = [
+        let attributes:[NSAttributedString.Key: Any] = [
             .font: UIFont.boldSystemFont(ofSize: 16),
             .paragraphStyle: paragraphStyle
         ]

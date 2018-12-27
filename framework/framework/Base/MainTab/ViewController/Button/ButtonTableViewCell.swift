@@ -119,9 +119,9 @@ class ButtonTableViewCell: UITableViewCell {
         
         // Set the button's title for normal state.
         
-        let normalTitleAttributes: [NSAttributedStringKey : Any] = [
-            NSAttributedStringKey.foregroundColor: UIColor.tintBlue(),
-            NSAttributedStringKey.strikethroughStyle: NSUnderlineStyle.styleSingle.rawValue
+        let normalTitleAttributes: [NSAttributedString.Key : Any] = [
+            NSAttributedString.Key.foregroundColor: UIColor.tintBlue(),
+            NSAttributedString.Key.strikethroughStyle: NSUnderlineStyle.single.rawValue
         ]
         
         let normalAttributedTitle = NSAttributedString(string: buttonTitle, attributes: normalTitleAttributes)
@@ -129,9 +129,9 @@ class ButtonTableViewCell: UITableViewCell {
         
         // Set the button's title for highlighted state.
         let highlightedTitleAttributes = [
-            NSAttributedStringKey.foregroundColor: UIColor.green,
-            NSAttributedStringKey.strikethroughStyle: NSUnderlineStyle.styleThick.rawValue
-            ] as [NSAttributedStringKey : Any]
+            NSAttributedString.Key.foregroundColor: UIColor.green,
+            NSAttributedString.Key.strikethroughStyle: NSUnderlineStyle.thick.rawValue
+            ] as [NSAttributedString.Key : Any]
         let highlightedAttributedTitle = NSAttributedString(string: buttonTitle, attributes: highlightedTitleAttributes)
         button.setAttributedTitle(highlightedAttributedTitle, for: .highlighted)
         

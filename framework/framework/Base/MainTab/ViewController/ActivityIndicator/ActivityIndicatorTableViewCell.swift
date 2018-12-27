@@ -30,7 +30,7 @@ class ActivityIndicatorTableViewCell: UITableViewCell {
     
     let indicator:UIActivityIndicatorView = {
        
-        let indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        let indicator = UIActivityIndicatorView(style: .gray)
         indicator.startAnimating()
         return indicator
         

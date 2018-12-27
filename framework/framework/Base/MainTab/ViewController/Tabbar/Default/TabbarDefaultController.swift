@@ -14,7 +14,9 @@ class TabbarDefaultController: UITabBarController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        if let base = UIApplication.shared.delegate?.window??.rootViewController,let tab = base as? UITabBarController{
+            tab.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
+        }
         
         let firstViewController = firstVC()
         firstViewController.view.backgroundColor = .red

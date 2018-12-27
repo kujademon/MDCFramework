@@ -24,7 +24,7 @@ class ActivityIndicatorViewController: UITableViewController {
         tableView = UITableView(frame: CGRect.zero, style: .grouped)
         tableView.register(ActivityIndicatorTableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
         
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 200
         tableView.allowsSelection = false
 

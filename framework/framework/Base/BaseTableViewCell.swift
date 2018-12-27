@@ -20,12 +20,12 @@ class BaseTableViewCell: UITableViewCell {
             
             guard let title = BaseCell?.title, let detail = BaseCell?.subTitle else { return }
             
-            let titleAttrString = NSAttributedString(string: title, attributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 18.0, weight: UIFont.Weight.bold), NSAttributedStringKey.foregroundColor: UIColor.lightGray])
+            let titleAttrString = NSAttributedString(string: title, attributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18.0, weight: UIFont.Weight.bold), NSAttributedString.Key.foregroundColor: UIColor.lightGray])
             
             titleLabel.attributedText = titleAttrString
             
             
-            let detailAttrString = NSAttributedString(string: detail, attributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.bold), NSAttributedStringKey.foregroundColor: UIColor.black])
+            let detailAttrString = NSAttributedString(string: detail, attributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16.0, weight: UIFont.Weight.bold), NSAttributedString.Key.foregroundColor: UIColor.black])
             
             detailLabel.attributedText = detailAttrString
             

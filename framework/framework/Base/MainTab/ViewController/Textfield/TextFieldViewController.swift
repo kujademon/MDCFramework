@@ -36,7 +36,7 @@ class TextFieldViewController: UITableViewController {
         tableView = UITableView(frame: CGRect.zero, style: .grouped)
         tableView.register(TextfieldTableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
         
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 200
         tableView.allowsSelection = false
         

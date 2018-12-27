@@ -56,7 +56,7 @@ public class RadioButton: UIButton {
             
             self.setImage(self.selectedIcon, for: .selected)
             
-            self.setImage(self.selectedIcon, for: UIControlState.selected.union(.highlighted))
+            self.setImage(self.selectedIcon, for: UIControl.State.selected.union(.highlighted))
         }
     }
     
@@ -169,19 +169,19 @@ public class RadioButton: UIButton {
         
         if self.iconOnRight {
             
-            self.imageEdgeInsets = layoutRightToLeft ? UIEdgeInsetsMake(0, 0, 0, self.frame.size.width - (self.icon?.size.width)!) : UIEdgeInsetsMake(0, self.frame.size.width - (self.icon?.size.width)!, 0, 0)
+            self.imageEdgeInsets = layoutRightToLeft ? UIEdgeInsets(top: 0, left: 0, bottom: 0, right: self.frame.size.width - (self.icon?.size.width)!) : UIEdgeInsets(top: 0, left: self.frame.size.width - (self.icon?.size.width)!, bottom: 0, right: 0)
             
-            self.titleEdgeInsets = layoutRightToLeft ? UIEdgeInsetsMake(0, marginWidth + (self.icon?.size.width)!, 0, -(self.icon?.size.width)!) : UIEdgeInsetsMake(0, -(self.icon?.size.width)!, 0, marginWidth + (self.icon?.size.width)!)
+            self.titleEdgeInsets = layoutRightToLeft ? UIEdgeInsets(top: 0, left: marginWidth + (self.icon?.size.width)!, bottom: 0, right: -(self.icon?.size.width)!) : UIEdgeInsets(top: 0, left: -(self.icon?.size.width)!, bottom: 0, right: marginWidth + (self.icon?.size.width)!)
             
         } else {
             
             if layoutRightToLeft {
                 
-                self.imageEdgeInsets = UIEdgeInsetsMake(0, marginWidth, 0, 0)
+                self.imageEdgeInsets = UIEdgeInsets(top: 0, left: marginWidth, bottom: 0, right: 0)
                 
             } else {
                 
-                self.titleEdgeInsets = UIEdgeInsetsMake(0, marginWidth, 0, 0)
+                self.titleEdgeInsets = UIEdgeInsets(top: 0, left: marginWidth, bottom: 0, right: 0)
             }
         }
     }

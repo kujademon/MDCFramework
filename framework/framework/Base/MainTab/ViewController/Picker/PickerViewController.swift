@@ -168,7 +168,7 @@ extension PickerViewController: UIPickerViewDelegate {
         
         // Set the foreground color for the entire attributed string.
         let attributes = [
-            NSAttributedStringKey.foregroundColor: foregroundColor
+            NSAttributedString.Key.foregroundColor: foregroundColor
         ]
         
         let title = NSMutableAttributedString(string: "\(Int(colorValue))", attributes: attributes)

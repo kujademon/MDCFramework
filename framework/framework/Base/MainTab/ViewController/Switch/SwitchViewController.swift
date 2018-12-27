@@ -28,7 +28,7 @@ class SwitchViewController: UITableViewController {
         tableView = UITableView(frame: CGRect.zero, style: .grouped)
         tableView.register(SwitchTableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
         
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 200
         tableView.allowsSelection = false
         

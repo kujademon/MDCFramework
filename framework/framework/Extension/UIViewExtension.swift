@@ -43,7 +43,7 @@ extension UIView {
       view.translatesAutoresizingMaskIntoConstraints = false
     }
     
-    let constraint = NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutFormatOptions(), metrics: metrics, views: viewsDictionary)
+    let constraint = NSLayoutConstraint.constraints(withVisualFormat: format, options: NSLayoutConstraint.FormatOptions(), metrics: metrics, views: viewsDictionary)
     
     addConstraints(constraint)
     

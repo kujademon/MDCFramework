@@ -25,7 +25,7 @@ class RadioButtonSelectedController: UIViewController {
         button.setTitleColor(UIColor.lightGray, for: .normal)
         button.iconColor = UIColor.tintGreen()
         button.indicatorColor = UIColor.tintGreen()
-        button.contentHorizontalAlignment = UIControlContentHorizontalAlignment.left
+        button.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.left
         button.iconSize = 18
         return button
     }()
@@ -41,7 +41,7 @@ class RadioButtonSelectedController: UIViewController {
         button.setTitleColor(UIColor.lightGray, for: .normal)
         button.iconColor = UIColor.tintGreen()
         button.indicatorColor = UIColor.tintGreen()
-        button.contentHorizontalAlignment = UIControlContentHorizontalAlignment.left
+        button.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.left
         button.iconSize = 18
         return button
     }()
@@ -72,8 +72,8 @@ class RadioButtonSelectedController: UIViewController {
         view.addSubview(radioButton2)
         
         
-        radioButton1.addTarget(self, action: #selector(RadioButtonSelectedController.selectedRadioButton), for: UIControlEvents.touchUpInside)
-        radioButton2.addTarget(self, action: #selector(RadioButtonSelectedController.selectedRadioButton), for: UIControlEvents.touchUpInside)
+        radioButton1.addTarget(self, action: #selector(RadioButtonSelectedController.selectedRadioButton), for: UIControl.Event.touchUpInside)
+        radioButton2.addTarget(self, action: #selector(RadioButtonSelectedController.selectedRadioButton), for: UIControl.Event.touchUpInside)
         
         
         view.addConstraints(with: "H:|-82-[v0]|", to: radioButton1, constraintCollector: &constraintCollector)

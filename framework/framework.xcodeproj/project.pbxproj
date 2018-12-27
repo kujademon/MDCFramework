@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3546763C21098A17007B764D /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3546763721098A15007B764D /* UITextFieldExtension.swift */; };
+		3546763D21098A17007B764D /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3546763821098A16007B764D /* UIFontExtension.swift */; };
+		3546763E21098A17007B764D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3546763921098A16007B764D /* UIViewControllerExtension.swift */; };
+		3546763F21098A17007B764D /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3546763A21098A16007B764D /* UILabelExtension.swift */; };
+		3546764021098A17007B764D /* UITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3546763B21098A17007B764D /* UITextViewExtension.swift */; };
 		355BBA3C20AA9E0C00F8DA04 /* RadioButtonSelectedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355BBA3B20AA9E0C00F8DA04 /* RadioButtonSelectedController.swift */; };
 		35842D68209E078E005F5B32 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D67209E078E005F5B32 /* SliderViewController.swift */; };
 		35842D6A209E07E9005F5B32 /* SilderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35842D69209E07E9005F5B32 /* SilderTableViewCell.swift */; };
@@ -68,6 +73,7 @@
 		35BEA45E209C552900C1751D /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA45D209C552900C1751D /* ButtonTableViewCell.swift */; };
 		35BEA461209C611300C1751D /* DatePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA460209C611300C1751D /* DatePickerController.swift */; };
 		35BEA464209D841000C1751D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BEA463209D841000C1751D /* ImageViewController.swift */; };
+		35CC46D92122D5F9005F5A29 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC46D82122D5F9005F5A29 /* UIApplicationExtension.swift */; };
 		35D07D3320A5487500497DE8 /* RadioButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D07D3220A5487500497DE8 /* RadioButtonViewController.swift */; };
 		35E9D23B20BBEF5E004695EC /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9D23620BBEF5D004695EC /* Interactor.swift */; };
 		35E9D23C20BBEF5E004695EC /* MenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E9D23720BBEF5D004695EC /* MenuHelper.swift */; };
@@ -79,6 +85,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3546763721098A15007B764D /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		3546763821098A16007B764D /* UIFontExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		3546763921098A16007B764D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		3546763A21098A16007B764D /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		3546763B21098A17007B764D /* UITextViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
 		355BBA3B20AA9E0C00F8DA04 /* RadioButtonSelectedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonSelectedController.swift; sourceTree = "<group>"; };
 		35842D67209E078E005F5B32 /* SliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 		35842D69209E07E9005F5B32 /* SilderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilderTableViewCell.swift; sourceTree = "<group>"; };
@@ -142,6 +153,7 @@
 		35BEA45D209C552900C1751D /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
 		35BEA460209C611300C1751D /* DatePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerController.swift; sourceTree = "<group>"; };
 		35BEA463209D841000C1751D /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		35CC46D82122D5F9005F5A29 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 		35D07D3220A5487500497DE8 /* RadioButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonViewController.swift; sourceTree = "<group>"; };
 		35E9D23620BBEF5D004695EC /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		35E9D23720BBEF5D004695EC /* MenuHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHelper.swift; sourceTree = "<group>"; };
@@ -419,6 +431,12 @@
 				35BEA43A2096D65300C1751D /* UIViewExtension.swift */,
 				35BEA443209AD36200C1751D /* NSObjectExtension.swift */,
 				35842D6B209E0AA6005F5B32 /* UIColorExtension.swift */,
+				3546763821098A16007B764D /* UIFontExtension.swift */,
+				3546763A21098A16007B764D /* UILabelExtension.swift */,
+				3546763721098A15007B764D /* UITextFieldExtension.swift */,
+				3546763B21098A17007B764D /* UITextViewExtension.swift */,
+				3546763921098A16007B764D /* UIViewControllerExtension.swift */,
+				35CC46D82122D5F9005F5A29 /* UIApplicationExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -636,6 +654,7 @@
 				35842D9720A02BA4005F5B32 /* TabbarDefaultController.swift in Sources */,
 				35E9D23B20BBEF5E004695EC /* Interactor.swift in Sources */,
 				35AA8B02209DE642009E91AC /* SearchResultsViewController.swift in Sources */,
+				3546763E21098A17007B764D /* UIViewControllerExtension.swift in Sources */,
 				35AA8AEB209D99C4009E91AC /* PeachViewController.swift in Sources */,
 				35842D7F209E39E1005F5B32 /* TextfieldTableViewCell.swift in Sources */,
 				35842D8C209F05FA005F5B32 /* TintedToolbarViewController.swift in Sources */,
@@ -671,6 +690,7 @@
 				35842D87209F04AE005F5B32 /* ToolbarViewControllers.swift in Sources */,
 				35842D91209F0907005F5B32 /* WebViewController.swift in Sources */,
 				35AA8B06209DEE50009E91AC /* SegmentedControlViewController.swift in Sources */,
+				3546763D21098A17007B764D /* UIFontExtension.swift in Sources */,
 				35842D6C209E0AA6005F5B32 /* UIColorExtension.swift in Sources */,
 				35842DA520A156D7005F5B32 /* TabbarCustomController.swift in Sources */,
 				35AA8AFB209DE2DF009E91AC /* CustomSearchBarViewController.swift in Sources */,
@@ -679,8 +699,11 @@
 				35BEA449209AF93A00C1751D /* BaseTableViewCell.swift in Sources */,
 				35842DBE20A42E08005F5B32 /* KMPlaceholderTextView.swift in Sources */,
 				35AA8AF9209DDF0D009E91AC /* DefaultSearchBarViewController.swift in Sources */,
+				3546764021098A17007B764D /* UITextViewExtension.swift in Sources */,
+				3546763F21098A17007B764D /* UILabelExtension.swift in Sources */,
 				35FE979920BE8A3300D9D4C1 /* RadioButtonMultiController.swift in Sources */,
 				35AA8AF1209DB197009E91AC /* ProgressViewController.swift in Sources */,
+				3546763C21098A17007B764D /* UITextFieldExtension.swift in Sources */,
 				35BEA43E209AC1E300C1751D /* BaseTableViewController.swift in Sources */,
 				35842D72209E33AA005F5B32 /* StepperViewController.swift in Sources */,
 				35AA8AF3209DB76D009E91AC /* ProgressViewCell.swift in Sources */,
@@ -692,6 +715,7 @@
 				35BEA452209C3E6600C1751D /* AlertControllerViewController.swift in Sources */,
 				35BEA461209C611300C1751D /* DatePickerController.swift in Sources */,
 				35842D8A209F05D4005F5B32 /* DefaultToolbarViewController.swift in Sources */,
+				35CC46D92122D5F9005F5A29 /* UIApplicationExtension.swift in Sources */,
 				35842D68209E078E005F5B32 /* SliderViewController.swift in Sources */,
 				35842D7D209E39B0005F5B32 /* TextFieldViewController.swift in Sources */,
 				35E9D24220BBEFAD004695EC /* SildeMenuViewController.swift in Sources */,
@@ -842,7 +866,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.freewillsolutions.framework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -861,7 +885,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.freewillsolutions.framework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

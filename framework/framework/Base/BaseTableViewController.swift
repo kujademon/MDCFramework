@@ -21,13 +21,13 @@ class BaseTableViewController: UITableViewController {
         
         tableView.register(BaseTableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
         
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 200
          if #available(iOS 11.0, *) {
             
          }else{
             if let tabbar = self.tabBarController{
-                let adjustForTabbarInsets: UIEdgeInsets = UIEdgeInsetsMake(0, 0, tabbar.tabBar.frame.height, 0)
+                let adjustForTabbarInsets: UIEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: tabbar.tabBar.frame.height, right: 0)
                 self.tableView.contentInset = adjustForTabbarInsets
                 self.tableView.scrollIndicatorInsets = adjustForTabbarInsets
             }

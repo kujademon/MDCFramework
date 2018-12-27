@@ -97,7 +97,7 @@ open class KMPlaceholderTextView: UITextView {
     private func commonInit() {
         NotificationCenter.default.addObserver(self,
             selector: #selector(textDidChange),
-            name: NSNotification.Name.UITextViewTextDidChange,
+            name: UITextView.textDidChangeNotification,
             object: nil)
         
         placeholderLabel.font = font
@@ -145,7 +145,7 @@ open class KMPlaceholderTextView: UITextView {
     
     deinit {
         NotificationCenter.default.removeObserver(self,
-            name: NSNotification.Name.UITextViewTextDidChange,
+            name: UITextView.textDidChangeNotification,
             object: nil)
     }
     

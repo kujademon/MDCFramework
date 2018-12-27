@@ -25,7 +25,7 @@ class RadioButtonMultiController: UIViewController {
         button.setTitleColor(UIColor.lightGray, for: .normal)
         button.iconColor = UIColor.tintGreen()
         button.indicatorColor = UIColor.tintGreen()
-        button.contentHorizontalAlignment = UIControlContentHorizontalAlignment.left
+        button.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.left
         button.iconSize = 18
         return button
     }()
@@ -41,7 +41,7 @@ class RadioButtonMultiController: UIViewController {
         button.setTitleColor(UIColor.lightGray, for: .normal)
         button.iconColor = UIColor.tintGreen()
         button.indicatorColor = UIColor.tintGreen()
-        button.contentHorizontalAlignment = UIControlContentHorizontalAlignment.left
+        button.contentHorizontalAlignment = UIControl.ContentHorizontalAlignment.left
         button.iconSize = 18
         return button
     }()
@@ -57,7 +57,7 @@ class RadioButtonMultiController: UIViewController {
         textField.returnKeyType = .done
         textField.enablesReturnKeyAutomatically = true
         textField.font = UIFont.systemFont(ofSize:21.0)
-        textField.attributedPlaceholder = NSAttributedString(string:"textfield 1", attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray, NSAttributedStringKey.font: UIFont.systemFont(ofSize:21.0)])
+        textField.attributedPlaceholder = NSAttributedString(string:"textfield 1", attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray, NSAttributedString.Key.font: UIFont.systemFont(ofSize:21.0)])
         textField.accessibilityIdentifier = "textfield1"
         
         textField.isUserInteractionEnabled = false
@@ -77,7 +77,7 @@ class RadioButtonMultiController: UIViewController {
         textField.returnKeyType = .done
         textField.enablesReturnKeyAutomatically = true
         textField.font = UIFont.systemFont(ofSize:21.0)
-        textField.attributedPlaceholder = NSAttributedString(string:"textfield 2", attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray, NSAttributedStringKey.font: UIFont.systemFont(ofSize:21.0)])
+        textField.attributedPlaceholder = NSAttributedString(string:"textfield 2", attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray, NSAttributedString.Key.font: UIFont.systemFont(ofSize:21.0)])
         textField.accessibilityIdentifier = "textfield2"
         
         textField.isUserInteractionEnabled = false
@@ -117,8 +117,8 @@ class RadioButtonMultiController: UIViewController {
         })
         
         
-        radioButton1.addTarget(self, action: #selector(RadioButtonMultiController.selectedRadioButton1), for: UIControlEvents.touchUpInside)
-        radioButton2.addTarget(self, action: #selector(RadioButtonMultiController.selectedRadioButton2), for: UIControlEvents.touchUpInside)
+        radioButton1.addTarget(self, action: #selector(RadioButtonMultiController.selectedRadioButton1), for: UIControl.Event.touchUpInside)
+        radioButton2.addTarget(self, action: #selector(RadioButtonMultiController.selectedRadioButton2), for: UIControl.Event.touchUpInside)
         
         
         view.addConstraints(with: "H:|-82-[v0]|", to: radioButton1, constraintCollector: &constraintCollector)

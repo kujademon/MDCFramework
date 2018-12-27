@@ -33,6 +33,20 @@ class SildeMenuViewController: UIViewController {
         present(menuVC, animated: true, completion: nil)
         
     }
+    
+    @IBAction func edgePanGestureHandle(_ sender: UIScreenEdgePanGestureRecognizer) {
+        
+        let translation = sender.translation(in: view)
+        
+        let progress = MenuHelper.calculateProgress(translation, viewBounds: view.bounds, direction: .left)
+        
+        MenuHelper.mapGestureStateToInteractor(
+            sender.state,
+            progress: progress,
+            interactor: interactor){
+                self.performSegue(withIdentifier: "showProfileVC", sender: nil)
+        }
+    }
 
 }
 extension SildeMenuViewController: UIViewControllerTransitioningDelegate {

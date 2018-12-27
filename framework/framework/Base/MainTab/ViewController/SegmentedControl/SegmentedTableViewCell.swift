@@ -133,14 +133,14 @@ class SegmentedTableViewCell: UITableViewCell {
         
         let normalTextAttributes = [
             
-            NSAttributedStringKey.foregroundColor: UIColor.tintPurple(),
-            NSAttributedStringKey.font: font
+            NSAttributedString.Key.foregroundColor: UIColor.tintPurple(),
+            NSAttributedString.Key.font: font
         ]
         segmented.setTitleTextAttributes(normalTextAttributes, for: .normal)
         
         let highlightedTextAttributes = [
-            NSAttributedStringKey.foregroundColor: UIColor.tintGreen(),
-            NSAttributedStringKey.font: font
+            NSAttributedString.Key.foregroundColor: UIColor.tintGreen(),
+            NSAttributedString.Key.font: font
         ]
         segmented.setTitleTextAttributes(highlightedTextAttributes, for: .highlighted)
         

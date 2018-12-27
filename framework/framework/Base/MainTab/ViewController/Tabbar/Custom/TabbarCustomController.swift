@@ -46,7 +46,7 @@ class TabbarCustomController: UITabBarController {
                 self.tabBar.items?[i].selectedImage = UIImage(named: imageNameForSelectedState)?.withRenderingMode(.alwaysOriginal)
                 self.tabBar.items?[i].image = UIImage(named: imageNameForUnselectedState)?.withRenderingMode(.alwaysOriginal)
                 self.tabBar.items?[i].title = ""
-                self.tabBar.items?[i].imageInsets = UIEdgeInsetsMake(6, 0, -6, 0);
+                self.tabBar.items?[i].imageInsets = UIEdgeInsets(top: 6, left: 0, bottom: -6, right: 0);
             }
             
         }
