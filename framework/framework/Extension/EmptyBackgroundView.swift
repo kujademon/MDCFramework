@@ -139,3 +139,20 @@ class EmptyBackgroundView: UIView {
         super.updateConstraints()
     }
 }
+
+
+//func setupEmptyBackgroundView() {
+//    let emptyBackgroundView = EmptyBackgroundView(image: #imageLiteral(resourceName: "user icon") , top: "กรุณาเพิ่มบุตรของท่าน", bottom: "")
+//    tableView.backgroundView = emptyBackgroundView
+//}
+//func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//    if child.count == 0 {
+//        tableView.separatorStyle = .none
+//        tableView.backgroundView?.isHidden = false
+//    } else {
+//        tableView.separatorStyle = .singleLine
+//        tableView.backgroundView?.isHidden = true
+//    }
+//
+//    return child.count
+//}

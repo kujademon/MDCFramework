@@ -78,3 +78,11 @@ import UIKit
 //        print("adViewWillLeaveApplication")
 //    }
 //}
+
+
+//var bannerView: Banner  = {
+//    let view = Banner(adSize: Banner.size)
+//    return view
+//
+//}()
+//bannerView.parent = self

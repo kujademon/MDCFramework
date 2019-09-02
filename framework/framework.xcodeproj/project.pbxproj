@@ -89,7 +89,6 @@
 		35D25E5F231CF2E3002861D7 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D25E5B231CF2E2002861D7 /* Animator.swift */; };
 		35D25E60231CF2E3002861D7 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D25E5C231CF2E3002861D7 /* Animations.swift */; };
 		35D25E62231CF31C002861D7 /* FB in Resources */ = {isa = PBXBuildFile; fileRef = 35D25E61231CF31C002861D7 /* FB */; };
-		35D25E68231CF34D002861D7 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D25E63231CF34B002861D7 /* Launch.swift */; };
 		35D25E69231CF34D002861D7 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D25E64231CF34B002861D7 /* LaunchViewController.swift */; };
 		35D25E6A231CF34D002861D7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D25E65231CF34C002861D7 /* RootViewController.swift */; };
 		35D25E6B231CF34D002861D7 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D25E66231CF34C002861D7 /* Banner.swift */; };
@@ -190,7 +189,6 @@
 		35D25E5B231CF2E2002861D7 /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
 		35D25E5C231CF2E3002861D7 /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		35D25E61231CF31C002861D7 /* FB */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FB; sourceTree = "<group>"; };
-		35D25E63231CF34B002861D7 /* Launch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
 		35D25E64231CF34B002861D7 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		35D25E65231CF34C002861D7 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		35D25E66231CF34C002861D7 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
@@ -474,7 +472,6 @@
 			children = (
 				35D25E6D231CF355002861D7 /* EmptyBackgroundView.swift */,
 				35D25E66231CF34C002861D7 /* Banner.swift */,
-				35D25E63231CF34B002861D7 /* Launch.swift */,
 				35D25E67231CF34D002861D7 /* LaunchScreen */,
 				35D25E64231CF34B002861D7 /* LaunchViewController.swift */,
 				35D25E65231CF34C002861D7 /* RootViewController.swift */,
@@ -795,7 +792,6 @@
 				35BEA4282096CF6300C1751D /* AppDelegate.swift in Sources */,
 				35BEA464209D841000C1751D /* ImageViewController.swift in Sources */,
 				35BEA452209C3E6600C1751D /* AlertControllerViewController.swift in Sources */,
-				35D25E68231CF34D002861D7 /* Launch.swift in Sources */,
 				35BEA461209C611300C1751D /* DatePickerController.swift in Sources */,
 				35842D8A209F05D4005F5B32 /* DefaultToolbarViewController.swift in Sources */,
 				35CC46D92122D5F9005F5A29 /* UIApplicationExtension.swift in Sources */,
