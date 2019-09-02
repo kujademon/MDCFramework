@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.rootViewController = homeViewController // set rootview = homeviewcontroller
         UINavigationBar.appearance().isTranslucent = false
         window!.makeKeyAndVisible()
+        
+        checkUpdate()
         return true
     }
 
@@ -48,6 +50,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    fileprivate func checkUpdate() {
+        do {
+            _ = try CheckVersion().isUpdateAvailable { (update, error) in
+                if let error = error {
+                    print(error)
+                } else if let update = update {
+                   
+                }
+            }
+        } catch {
+            print("error")
+        }
+    }
 
 }
 

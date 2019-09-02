@@ -55,4 +55,47 @@ extension UIColor {
         )
     }
     
+    @nonobjc
+    static var lightGreen = {
+        
+        return #colorLiteral(red: 0.2117647059, green: 0.7607843137, blue: 0.6274509804, alpha: 1)
+    }()
+    
+    @nonobjc
+    static var darkGreen = {
+        
+        return #colorLiteral(red: 0.2274509804, green: 0.5490196078, blue: 0.5176470588, alpha: 1)
+    }()
+    
+    @nonobjc
+    static var lightBlack = {
+        
+        return #colorLiteral(red: 0.2901960784, green: 0.2901960784, blue: 0.2901960784, alpha: 1)
+    }()
+    
+    @nonobjc
+    static var a1Gray = {
+        
+        return #colorLiteral(red: 0.6078431373, green: 0.6078431373, blue: 0.6078431373, alpha: 1)
+    }()
+    
+    @nonobjc
+    static var yellowBus = {
+        
+        return #colorLiteral(red: 1, green: 0.6, blue: 0, alpha: 1)
+    }()
+    
+    class func creatImageWithColor(color:UIColor) -> UIImage{
+        
+        let rect = CGRect.init(x: 0, y: 0, width: 1, height: 1)
+        UIGraphicsBeginImageContext(rect.size)
+        let context = UIGraphicsGetCurrentContext()
+        context!.setFillColor(color.cgColor)
+        context?.fill(rect)
+        let colorImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return colorImage!
+    }
+    
 }
