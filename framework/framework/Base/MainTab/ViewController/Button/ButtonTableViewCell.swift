@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ButtonTableViewCellDelegate: class {
+protocol ButtonTableViewCellDelegate: AnyObject {
     
     func buttonDidTouch(_ sender: UIButton)
 }

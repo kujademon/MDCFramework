@@ -96,7 +96,7 @@ extension PageControlViewController: UIPageViewControllerDelegate{
         
         // set the pageControl.currentPage to the index of the current viewController in pages
         if let viewControllers = pageViewController.viewControllers {
-            if let viewControllerIndex = self.pages.index(of: viewControllers[0]) {
+            if let viewControllerIndex = self.pages.firstIndex(of: viewControllers[0]) {
                 self.pageControl.currentPage = viewControllerIndex
             }
         }
@@ -112,7 +112,7 @@ extension PageControlViewController: UIPageViewControllerDataSource{
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
-        if let viewControllerIndex = self.pages.index(of: viewController) {
+        if let viewControllerIndex = self.pages.firstIndex(of: viewController) {
             if viewControllerIndex == 0 {
                 // wrap to last page in array
                 return self.pages.last
@@ -127,7 +127,7 @@ extension PageControlViewController: UIPageViewControllerDataSource{
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
-        if let viewControllerIndex = self.pages.index(of: viewController) {
+        if let viewControllerIndex = self.pages.firstIndex(of: viewController) {
             if viewControllerIndex < self.pages.count - 1 {
                 // go to next page in array
                 return self.pages[viewControllerIndex + 1]

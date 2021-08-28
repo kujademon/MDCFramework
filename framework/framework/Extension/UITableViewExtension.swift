@@ -16,7 +16,7 @@ extension UITableView {
     }
     
     var indexPathsForEditingRows: [IndexPath] {
-        return visibleCells.flatMap { cell -> IndexPath? in
+        return visibleCells.compactMap { cell -> IndexPath? in
             guard let indexPath = indexPath(for: cell), cell.editingStyle != .none else {
                 return nil
             }

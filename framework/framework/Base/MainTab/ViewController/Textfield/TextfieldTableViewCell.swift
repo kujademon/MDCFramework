@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol TextFieldViewCellDelegate: class {
+protocol TextFieldViewCellDelegate: AnyObject {
     
     func returnText(_ value: String)
     

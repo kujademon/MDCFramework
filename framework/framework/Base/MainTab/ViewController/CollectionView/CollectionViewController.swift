@@ -79,13 +79,13 @@ extension CollectionViewController: UICollectionViewDataSource{
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 10
+        return 1
     }
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return 5
+        return 100
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -94,6 +94,13 @@ extension CollectionViewController: UICollectionViewDataSource{
         // Configure the cell
         
         cell.backgroundColor = .red
+        _ = cell.contentView.subviews.compactMap{
+            $0.removeFromSuperview()
+        }
+        let title = UILabel(frame: CGRect(x: 0, y: 0, width: cell.bounds.size.width, height: 50))
+        title.text = "\(indexPath.item)"
+        title.textAlignment = .center
+        cell.contentView.addSubview(title)
         
         return cell
     }

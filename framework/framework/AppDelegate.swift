@@ -55,7 +55,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             _ = try CheckVersion().isUpdateAvailable { (update, error) in
                 if let error = error {
                     print(error)
-                } else if let update = update {
+                } else if let _ = update {
                    
                 }
             }
